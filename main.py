@@ -10,7 +10,7 @@ def codemain():
 
     profile_url = input('Enter your namemc URL: e.g: https://namemc.com/profile/Unpacks.5 ') # defining the url
 
-    with open('/Users/AlecG/Documents/Coding/Web Automation/NameMC Profile Viewbot/proxies.txt', 'r') as f:
+    with open('proxies.txt', 'r') as f:
         proxies1 = f.read().splitlines()
         proxy2 = random.choice(proxies1)
         
